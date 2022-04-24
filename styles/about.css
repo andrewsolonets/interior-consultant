@@ -96,7 +96,7 @@ main {
   font-size: 2.286vw;
   transition: 0.5s ease;
 }
-.request:hover {
+.request:active:hover {
   background-color: #202020;
   color: white;
   border: 0.286vw solid #ffffff;

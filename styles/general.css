@@ -158,6 +158,7 @@ box-shadow: var(--shadowmain);
     margin: 0;
     height: auto;
   }
+  
   .content {
     margin: 40px 21px;
     z-index: 5;

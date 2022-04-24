@@ -76,7 +76,7 @@
     font-size: 1.714vw;
     line-height: 2.571vw;
     width: 45.071vw;
-    height: 18.786vw;
+    height: auto;
   }
 
   .iconrow {
@@ -285,7 +285,7 @@
     font-size: 3.733vw;
     line-height: 148%;
     width: 73.067vw;
-    height: 50.400vw;
+    height: auto;
     margin-bottom: 10vw;
   }
 

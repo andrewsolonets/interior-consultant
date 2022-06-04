@@ -1,200 +1,189 @@
+header {
+  margin: 0;
+}
 
+.mainartimg {
+  position: relative;
+  z-index: 5;
+  margin-top: -10vw;
+  margin-bottom: 10vw;
+}
+
+.art1 {
+  width: 100%;
+}
+
+.overlay1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #00000049;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.arrow1 {
+  position: absolute;
+  width: 3.571vw;
+  height: 2.857vw;
+  left: 2.643vw;
+  top: 32.3vw;
+}
+
+.arrow2 {
+  position: absolute;
+  width: 3.571vw;
+  height: 2.857vw;
+  left: 93vw;
+  top: 32.3vw;
+  transform: rotate(-180deg);
+}
+
+.titlea {
+  font-weight: 800;
+  position: absolute;
+  font-family: "Montserrat";
+  font-size: 4.571vw;
+  color: var(--colortxtw);
+  position: absolute;
+  width: 24.357vw;
+  height: 5.571vw;
+  left: 19.286vw;
+  top: 30.429vw;
+}
+
+.heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.429vw;
+  line-height: 4.214vw;
+  margin-bottom: 5vw;
+}
+
+.textc {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.714vw;
+  line-height: 2.571vw;
+  width: 45.071vw;
+  height: auto;
+}
+
+.iconrow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 3.571vw;
+  height: 3.571vw;
+}
+
+.icon2 {
+  width: 2.857vw;
+  height: 2.857vw;
+  margin-left: 0.3vw;
+}
+
+.iconholder {
+  width: 3.571vw;
+  height: 3.571vw;
+}
+
+.texticon {
+  margin-left: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleicon {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.714vw;
+  line-height: 2.571vw;
+  color: var(--colortxt);
+}
+
+.descricon {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.714vw;
+  line-height: 2.571vw;
+  color: var(--color0);
+}
+
+.iconsd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 5vw;
+}
+
+.image_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_1_cont {
+  width: 41.214vw;
+  height: 54.5vw;
+}
+
+.textc2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.714vw;
+  line-height: 2.571vw;
+  width: auto;
+}
+
+.allcontent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5.5vw;
+  margin-right: 5.5vw;
+  gap: 5vw;
+  margin-bottom: 10vw;
+}
+
+.imagebig {
+  width: 100%;
+}
+
+.textc3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.714vw;
+  line-height: 2.571vw;
+  width: 41.071vw;
+}
+
+.roww3 {
+  display: flex;
+  justify-content: space-between;
+}
+.roww4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
   header {
     margin: 0;
-
-  }
-
-  .mainartimg {
-    position: relative;
-    z-index: 5;
-    margin-top: -10vw;
-    margin-bottom: 10vw;
-  }
-
-  .art1 {
-    width: 100%;
-  }
-
-  .overlay1 {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: #00000049;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .arrow1 {
-    position: absolute;
-    width: 3.571vw;
-    height: 2.857vw;
-    left: 2.643vw;
-    top: 32.3vw;
-
-  }
-
-  .arrow2 {
-    position: absolute;
-    width: 3.571vw;
-    height: 2.857vw;
-    left: 93vw;
-    top: 32.3vw;
-    transform: rotate(-180deg);
-
-  }
-
-
-  .titlea {
-    font-weight: 800;
-    position: absolute;
-    font-family: 'Montserrat';
-    font-size: 4.571vw;
-    color: var(--colortxtw);
-    position: absolute;
-    width: 24.357vw;
-    height: 5.571vw;
-    left: 19.286vw;
-    top: 30.429vw;
-  }
-
-
-  .heading {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 3.429vw;
-    line-height: 4.214vw;
-    margin-bottom: 5vw;
-  }
-
-  .textc {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.714vw;
-    line-height: 2.571vw;
-    width: 45.071vw;
-    height: auto;
-  }
-
-  .iconrow {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1vw;
-  }
-
-  .flex1 {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .icon {
-    width: 3.571vw;
-    height: 3.571vw;
-  }
-
-  .icon2 {
-    width: 2.857vw;
-    height: 2.857vw;
-    margin-left: 0.3vw;
-  }
-
-  .iconholder {
-    width: 3.571vw;
-    height: 3.571vw;
-  }
-
-  .texticon {
-    margin-left: 1vw;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .titleicon {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.714vw;
-    line-height: 2.571vw;
-    color: var(--colortxt);
-
-  }
-
-  .descricon {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.714vw;
-    line-height: 2.571vw;
-    color: var(--color0);
-  }
-
-  .iconsd {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-right: 5vw;
-  }
-
-  .image_row {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .img_1_cont {
-    width: 41.214vw;
-    height: 54.5vw;
-  }
-
-
-  .textc2 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.714vw;
-    line-height: 2.571vw;
-    width: auto;
-  }
-
-  .allcontent {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5.5vw;
-    margin-right: 5.5vw;
-    gap: 5vw;
-    margin-bottom: 10vw;
-  }
-
-  .imagebig {
-    width: 100%;
-  }
-
-  .textc3 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.714vw;
-    line-height: 2.571vw;
-    width: 41.071vw;
-  }
-
-  .roww3 {
-    display: flex;
-    justify-content: space-between;
-  }
-  .roww4 {
-    display: flex;
-    justify-content: space-between;
-  }
-
-
-
-@media (max-width:768px) {
-  header {
-    margin: 0;
-
   }
   .mainartimg {
     margin-top: -20vw;
@@ -220,9 +209,8 @@
     position: absolute;
     width: 8vw;
     height: 6.667vw;
-    left: 5.600vw;
+    left: 5.6vw;
     top: 46.933vw;
-
   }
 
   .arrow2 {
@@ -232,26 +220,24 @@
     left: 87.333vw;
     top: 46.933vw;
     transform: rotate(-180deg);
-
   }
-
 
   .titlea {
     font-weight: 800;
     position: absolute;
-    font-family: 'Montserrat';
-    font-size: 9.600vw;
+    font-family: "Montserrat";
+    font-size: 9.6vw;
     color: var(--colortxtw);
     position: absolute;
-    width: 51.200vw;
+    width: 51.2vw;
     height: 5.571vw;
     left: 9.286vw;
-    top:62.429vw;
+    top: 62.429vw;
   }
   .allcontent {
     margin-left: 8.267vw;
     margin-right: 8.267vw;
-    gap:10vw;
+    gap: 10vw;
   }
 
   .flex1 {
@@ -260,7 +246,7 @@
 
   .image_row {
     flex-direction: column;
-    gap:7vw;
+    gap: 7vw;
   }
   .img_1_cont {
     width: 100%;
@@ -268,10 +254,10 @@
   }
 
   .heading {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
-    font-size: 9.600vw;
+    font-size: 9.6vw;
     line-height: 11.733vw;
     margin-bottom: 10vw;
   }
@@ -279,7 +265,7 @@
   .textc,
   .textc2,
   .textc3 {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 3.733vw;
@@ -291,17 +277,17 @@
 
   .textc2,
   .textc3 {
-    height:auto;
+    height: auto;
   }
 
   .icon {
     width: 8vw;
-    height:8vw;
+    height: 8vw;
   }
 
   .icon2 {
-    width: 6.400vw;
-    height: 6.400vw;
+    width: 6.4vw;
+    height: 6.4vw;
     margin-left: 0.5vw;
   }
 
@@ -317,17 +303,16 @@
   }
 
   .titleicon {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 4.267vw;
     line-height: 5.333vw;
     color: var(--colortxt);
-
   }
 
   .descricon {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 4.267vw;
@@ -343,5 +328,4 @@
   .iconrow {
     margin-bottom: 3vw;
   }
-
 }

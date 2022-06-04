@@ -1,15 +1,13 @@
 :root {
-  --bg-color: #DFDFDF!important;
-  --header-color: #D8D8D8 ;
+  --bg-color: #dfdfdf !important;
+  --header-color: #d8d8d8;
   --colortxt: #000000;
-  --color0: #4E4E4E;
-  --shadowmobile: 0px 1.067vw 3.200vw rgba(0, 0, 0, 0.19);
+  --color0: #4e4e4e;
+  --shadowmobile: 0px 1.067vw 3.2vw rgba(0, 0, 0, 0.19);
   --shadowmain: 0px 0.714vw 2.286vw rgba(0, 0, 0, 0.22);
-  --imgcollection:42.156vw;
-  --colortxtw:white;
+  --imgcollection: 42.156vw;
+  --colortxtw: white;
 }
-
-
 
 body {
   margin: 0;
@@ -32,16 +30,22 @@ body {
   box-shadow: var(--shadowmain);
 }
 .main_img {
-
   position: relative;
   width: 51vw;
   box-shadow: var(--shadowmain);
 }
 
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
 
 .block_image {
   position: relative;
-  
 }
 
 .content {
@@ -59,7 +63,7 @@ body {
 }
 
 .block_t_heading {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 3.43vw;
@@ -69,7 +73,7 @@ body {
 }
 
 .block_t_p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 1.5vw;
@@ -78,7 +82,7 @@ body {
 .block_t_b {
   color: var(--colortxt);
   text-decoration: none;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 1.55vw;
@@ -87,9 +91,8 @@ body {
   margin-top: 3.571vw;
 }
 
-
 .bold {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: bold;
   font-size: 1.428vw;
 }
@@ -110,12 +113,11 @@ body {
 
 .imagegrid {
   position: relative;
-  
 }
 
 .itemgrid {
-box-shadow: var(--shadowmain);
-} 
+  box-shadow: var(--shadowmain);
+}
 
 .overlay {
   position: absolute;
@@ -126,7 +128,7 @@ box-shadow: var(--shadowmain);
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: #00000069;
 }
 
@@ -135,7 +137,7 @@ box-shadow: var(--shadowmain);
 }
 
 .overtext {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 3.43vw;
@@ -147,25 +149,25 @@ box-shadow: var(--shadowmain);
   -webkit-transform: translate(-1.5vw, -2.5vw);
   -ms-transform: translate(-1.5vw, -2.5vw);
   transform: translate(-1.5vw, -2.5vw);
-} 
+}
 
 #smallbox {
   cursor: pointer;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   body {
     margin: 0;
     height: auto;
   }
-  
+
   .content {
     margin: 40px 21px;
     z-index: 5;
     display: flex;
     flex-direction: column;
-    
-    align-items:flex-start;
+
+    align-items: flex-start;
     justify-content: flex-start;
   }
   .main_img {
@@ -179,38 +181,37 @@ box-shadow: var(--shadowmain);
     width: 100%;
     box-shadow: var(--shadowmobile);
   }
-  
+
   .block_image {
     margin-top: 40px;
     position: relative;
-
   }
   .block_t {
     display: flex;
-    gap:5vw;
+    gap: 5vw;
     flex-direction: column;
     width: 100%;
   }
-  
+
   .block_t_heading {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 8.533vw;
     line-height: 10vw;
     width: 87.733vw;
   }
-  
+
   .block_t_p {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 148.4%;
-    width: 85.600vw;
+    width: 85.6vw;
   }
   .block_t_b {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: 700;
     font-weight: 700;
     font-size: 16px;
@@ -223,7 +224,7 @@ box-shadow: var(--shadowmain);
   .imggrid {
     width: 100%;
   }
-  
+
   .grid {
     margin-top: 15vw;
     display: grid;
@@ -235,9 +236,8 @@ box-shadow: var(--shadowmain);
   }
   .imagegrid {
     position: relative;
-    
   }
-  
+
   .overlay {
     position: absolute;
     top: 0;
@@ -247,12 +247,12 @@ box-shadow: var(--shadowmain);
     height: 100%;
     width: 100%;
     opacity: 1;
-    transition: .5s ease;
+    transition: 0.5s ease;
     background-color: #00000049;
   }
 
   .overtext {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 8.533vw;
@@ -261,5 +261,5 @@ box-shadow: var(--shadowmain);
     position: absolute;
     bottom: 7vw;
     left: 5vw;
-  } 
+  }
 }
